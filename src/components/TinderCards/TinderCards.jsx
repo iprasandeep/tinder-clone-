@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './tindercards.css';
-import TinderCard from '../TinderCard/TinderCard';
+import TinderCard from 'react-tinder-card'
 
 const TinderCards = () => {
     const [ people, setPeople ] = useState([
@@ -33,7 +33,7 @@ const TinderCards = () => {
   return (
     <div>
     <div className='tinderCards'>
-        <div className="TinderCards_cardContainer">
+        <div className="tinderCards_cardContainer ">
             {people.map((person)=>(
                 <TinderCard 
                 className='swipe'
