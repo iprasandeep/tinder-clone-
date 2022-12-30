@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <div>
       <h2>I am from Header!</h2>
-       < PersonIcon />
+       < PersonIcon  fontSize='large' className='header_icon' />
+        <img  className='header_logo' src='' alt='logo'/>
     </div>
   )
 }
