@@ -1,14 +1,13 @@
 import React from 'react';
-
+import TinderCards from './components/TinderCards/TinderCards';
 import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      {/* DBM class naming convention */}
-     <h1> Lets Load th MERN Tinder!</h1>
+
       <Header />
-     {/* Tinder Cards */}
+     <TinderCards />
     {/* SwipeButtons */}
     
     </div>
